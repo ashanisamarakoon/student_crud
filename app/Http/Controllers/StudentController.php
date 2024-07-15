@@ -57,7 +57,7 @@ class StudentController extends Controller
 
         $student->update($request->all());
 
-        return redirect()->route('students.index')
+        return redirect()->route('home')
                          ->with('success', 'Student updated successfully.');
     }
 
@@ -65,7 +65,7 @@ class StudentController extends Controller
     {
         $student->delete();
 
-        return redirect()->route('students.index')
+        return redirect()->route('home')
                          ->with('success', 'Student deleted successfully.');
     }
 }
