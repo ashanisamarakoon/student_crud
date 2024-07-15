@@ -1,0 +1,7 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* In resources/css/app.css or your custom stylesheet */
+
+.custom-card-body {
+    background-color: #95D2B3; /* Example background color */
+    padding: 20px; /* Adjust padding as needed */
+}
